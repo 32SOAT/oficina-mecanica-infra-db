@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+backend.tf
+terraform.tfvars
+*.auto.tfvars
+
+# Ambiente
+.env
