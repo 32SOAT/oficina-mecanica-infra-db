@@ -1,0 +1,11 @@
+# Copie para backend.tf e ajuste (backend.tf esta no .gitignore).
+# No CI o backend e configurado dinamicamente via -backend-config.
+# terraform {
+#   backend "s3" {
+#     bucket         = "meu-bucket-terraform-state"
+#     key            = "oficina-mecanica/db/terraform.tfstate"
+#     region         = "us-east-1"
+#     dynamodb_table = "terraform-locks"
+#     encrypt        = true
+#   }
+# }

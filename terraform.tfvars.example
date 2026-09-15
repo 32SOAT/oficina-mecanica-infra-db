@@ -1,0 +1,13 @@
+aws_region   = "us-east-1"
+project_name = "oficina-mecanica"
+environment  = "dev"
+
+db_name     = "oficina_mecanica"
+db_username = "oficina"
+# db_password: prefira TF_VAR_db_password via ambiente (nao versione senhas).
+
+# AWS Academy: use gp2.
+db_storage_type = "gp3"
+
+# SGs adicionais com acesso ao banco (ex.: SG da Lambda de autenticacao).
+extra_ingress_security_group_ids = []
